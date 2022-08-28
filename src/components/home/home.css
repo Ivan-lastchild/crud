@@ -1,0 +1,19 @@
+.user-home {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-home-item {
+    width: 100%;
+    padding: 10px;
+    border-radius: 0.5em;
+    background-color: #70b3e6;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.user-home-item:hover {
+    background-color: #66a3d1;
+    transition: 0.2s;
+}

@@ -1,0 +1,30 @@
+.headerApp {
+    height: 50px;
+    width: 100%;
+    background-color: #6495ed;
+}
+
+.header-links {
+    height: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-links a {
+    height: 100%;
+    text-decoration: none;
+    color: #f0f8ff;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-links a:hover {
+    background-color: #f0f8ff;
+    color: #6495ed;
+}

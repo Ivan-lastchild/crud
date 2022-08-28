@@ -1,0 +1,50 @@
+.user-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-block-item {
+    width: 100%;
+    padding: 10px;
+    border-radius: 0.5em;
+    background-color: #70b3e6;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.user-item-body{
+    display: flex;
+}
+
+.user-block-item:hover {
+    background-color: #66a3d1;
+    transition: 0.2s;
+}
+
+.user-data {
+    flex-grow: 1;
+}
+
+.user-control button {
+    width: 100px;
+    height: 100%;
+    margin: 0 10px;
+    border-radius: 0.3em;
+    border: none;
+    cursor: pointer;
+}
+
+.user-control button:hover{
+    background-color: #ffe4c4;
+    transition: 0.2s;
+}
+
+.user-control button:active{
+    background-color: #f5f5dc;
+    transition: 0.2s;
+}
+
+.editField {
+    margin: 20px 0 10px;
+}
